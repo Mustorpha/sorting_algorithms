@@ -1,7 +1,8 @@
 #include "sort.h"
+
 /**
-* insertion_sort_list - insertion sorting algorithm
-* @list: linked list to sort
+* insertion_sort_list - insertion sorting implementation
+* @list: unsorted linked list
 */
 void insertion_sort_list(listint_t **list)
 {
