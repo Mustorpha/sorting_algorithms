@@ -1,28 +1,28 @@
 #include "sort.h"
 
 /**
- * selection_sort - sort list with selection_sort
- * @array: The array to be printed
- * @size: Number of elements in @array
+ * selection_sort - selection sort implementation
+ * @array: the unsorted array
+ * @size: number of elements in the array
  */
 void selection_sort(int *array, size_t size)
 {
-	size_t i, c, less, tmp, swap;
+	size_t i, c, k, tmp, swap;
 
 	if (array == NULL)
 		return;
 	for (i = 0; i < size; i++)
 	{
-		for (less = i, c = i; c < size; c++)
-			if (array[c] < array[less])
+		for (k = i, c = i; c < size; c++)
+			if (array[c] < array[k])
 			{
-				less = c;
+				k = c;
 				swap = 1;
 			}
 		if (swap == 1)
 		{
-			tmp = array[less];
-			array[less] = array[i];
+			tmp = array[k];
+			array[k] = array[i];
 			array[i] = tmp;
 			print_array(array, size);
 			swap = 0;
