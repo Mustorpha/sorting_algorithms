@@ -1,13 +1,12 @@
-
 #include "sort.h"
 
 /**
- * partition - array partition
- * @array: array to sort
+ * partition - splits the unsorted array
+ * @array: the unsorted array
  * @first: first position
  * @last: last position
  * @size: array size
- * Return: int pivot index
+ * Return: the pivot index
  */
 int partition(int *array, int first, int last, size_t size)
 {
@@ -58,7 +57,7 @@ void qs(int *array, int first, int last, size_t size)
 }
 
 /**
- * quick_sort - sorts an array of integers using the Quick
+ * quick_sort - quicksort implementation
  * sort algorithm in ascending order
  * @array: array to sort
  * @size: array size
