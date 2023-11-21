@@ -2,10 +2,10 @@
 #include <stdlib.h>
 
 /**
- * arr_max - array max
- * @array: array
+ * arr_max - gets the maximum of an array
+ * @array: the target array
  * @size: size of the array
- * Return: max
+ * Return: int max
  */
 int arr_max(int *array, size_t size)
 {
@@ -20,8 +20,8 @@ int arr_max(int *array, size_t size)
 }
 
 /**
- * counting_sort - sorts an array with the Counting sort algorithm
- * @array: array to sort
+ * counting_sort - counting sort implementation
+ * @array: the unsorted array
  * @size: size of the array
  */
 void counting_sort(int *array, size_t size)
