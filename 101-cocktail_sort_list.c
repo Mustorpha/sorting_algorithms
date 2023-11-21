@@ -1,7 +1,7 @@
 #include "sort.h"
 
 /**
- * swapme - swap the nodes themselves.
+ * swapme - swaps the cocktail nodes
  * @current: pointer.
  * @current_old: pointer.
  * @list: doubly linked list
@@ -25,7 +25,7 @@ void swapme(listint_t *current, listint_t *current_old, listint_t **list)
 }
 
 /**
- * cocktail_sort_list - cocktail_sort_list
+ * cocktail_sort_list - cocktail sort implementation
  *
  * @list: doubly linked list
  */

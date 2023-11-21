@@ -1,8 +1,8 @@
 #include "sort.h"
 
 /**
- * shell_sort - Shell sort - Knuth Sequence
- * @array: array to sort
+ * shell_sort - shell sort in knuth sequence
+ * @array: the unsorted array
  * @size: size of array
  */
 void shell_sort(int *array, size_t size)
