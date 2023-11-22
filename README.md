@@ -1,1 +1,29 @@
-#  sorting algorithms
+0x1B. C - Sorting algorithms & Big O
+By: Alexandre Gautier
+Weight: 2
+
+Team mates: Victor Ukpongette and  Mustorpa Jamiu
+
+Project Date: 15 Nov to 22 Nov, 2023
+
+ *************************************************************************
+
+IN MY OWN WORDS
+
+SORTING ALGORITYMS
+
+Sorting algorithms are a set of procedures that put elements in a certain order. The order could be numerical, lexicographical, or based on some other criteria. There are various sorting algorithms, each with its own advantages and disadvantages in terms of time complexity, space complexity, and ease of implementation.
+
+BIG 0 NOTATION
+
+Big O Notation:
+Big O notation is a way to describe the performance or complexity of an algorithm in terms of its input size. It provides an upper bound on the growth rate of the runtime of an algorithm in the worst-case scenario.
+
+Here are some common Big O notations:
+
+O(1): Constant time complexity. The algorithm's runtime does not depend on the size of the input.
+O(log n): Logarithmic time complexity. Common in algorithms that divide the problem in each step, like binary search.
+O(n): Linear time complexity. The runtime grows linearly with the size of the input.
+O(n log n): Linearithmic time complexity. Common in efficient sorting algorithms like Merge Sort and Heap Sort.
+O(n^2): Quadratic time complexity. Common in algorithms with nested iterations, like Bubble Sort and Insertion Sort.
+
