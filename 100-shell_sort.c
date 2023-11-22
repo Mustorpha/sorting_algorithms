@@ -2,7 +2,7 @@
 
 /**
  * shell_sort - shell sort in knuth sequence
- * @array: the unsorted array
+ * @array: points to the unsorted array
  * @size: size of array
  */
 void shell_sort(int *array, size_t size)

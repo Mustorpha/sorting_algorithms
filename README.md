@@ -23,6 +23,9 @@ The Insertion Sort algorithm is a simple sorting algorithm that builds the final
 Quick sort:
 QuickSort works by selecting a 'pivot' element from the array and partitioning the other elements into two sub-arrays according to whether they are less than or greater than the pivot. The sub-arrays are then sorted recursively.
 
+Shell sort:
+Shell Sort, also known as Shell's method, is an in-place comparison-based sorting algorithm. It's an extension of the Insertion Sort algorithm that improves its efficiency by allowing the exchange of elements that are far apart. Shell Sort uses a sequence of decreasing gaps to partially sort the elements in the array, gradually reducing the gap until it becomes 1, at which point the algorithm becomes equivalent to a regular Insertion Sort.
+
 BIG 0 NOTATION
 
 Big O Notation:
