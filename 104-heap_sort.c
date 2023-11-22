@@ -4,8 +4,8 @@
 #define getLeft(i) (2 * (i) + 1)
 #define getRight(i) (2 * (i) + 2)
 /**
- * sift_down - sift_down
- * @array: array containing heap
+ * sift_down - sift_down function
+ * @array: points to array containing heap
  * @size: total size of array
  * @index: index of index node of heap
  * @nth: index of nth node in heap to examine
@@ -34,7 +34,7 @@ void sift_down(int *array, size_t size, size_t index, size_t nth)
 }
 /**
  * heap_sort - heap sort implementation
- * @array: array to sort
+ * @array: points to array to sort
  * @size: size of array
  */
 void heap_sort(int *array, size_t size)

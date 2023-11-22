@@ -32,6 +32,9 @@ Counting Sort is a non-comparison-based sorting algorithm that works well when t
 Merge sort:
 Merge Sort is a classic divide-and-conquer algorithm used for sorting arrays or lists. It was invented by John von Neumann in 1945. The key idea behind Merge Sort is to divide the array into smaller sub-arrays, recursively sort each sub-array, and then merge them back together to produce a sorted result. Merge Sort guarantees a time complexity of O(n log n) for the worst, average, and best cases.
 
+Heap sort:
+Heap Sort is another comparison-based sorting algorithm that is based on the binary heap data structure. It uses the concept of a heap to build a partially ordered binary tree, and then repeatedly extracts the maximum (for a max-heap) or minimum (for a min-heap) element from the heap and rebuilds the heap until the entire array is sorted. Heap Sort has a time complexity of O(n log n) for the worst, average, and best cases.
+
 BIG 0 NOTATION
 
 Big O Notation:
