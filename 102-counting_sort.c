@@ -3,7 +3,7 @@
 
 /**
  * arr_max - gets the maximum of an array
- * @array: the target array
+ * @array: pointer to the target array
  * @size: size of the array
  * Return: int max
  */
@@ -21,7 +21,7 @@ int arr_max(int *array, size_t size)
 
 /**
  * counting_sort - counting sort implementation
- * @array: the unsorted array
+ * @array: points to the unsorted array
  * @size: size of the array
  */
 void counting_sort(int *array, size_t size)

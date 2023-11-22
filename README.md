@@ -26,6 +26,9 @@ QuickSort works by selecting a 'pivot' element from the array and partitioning t
 Shell sort:
 Shell Sort, also known as Shell's method, is an in-place comparison-based sorting algorithm. It's an extension of the Insertion Sort algorithm that improves its efficiency by allowing the exchange of elements that are far apart. Shell Sort uses a sequence of decreasing gaps to partially sort the elements in the array, gradually reducing the gap until it becomes 1, at which point the algorithm becomes equivalent to a regular Insertion Sort.
 
+Counting sorting:
+Counting Sort is a non-comparison-based sorting algorithm that works well when the range of input values (keys) is known and is not significantly larger than the number of elements to be sorted. It operates by counting the number of occurrences of each element and using that information to determine the position of each element in the sorted output.
+
 BIG 0 NOTATION
 
 Big O Notation:
