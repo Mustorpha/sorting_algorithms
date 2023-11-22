@@ -6,7 +6,7 @@ Team mates: Victor Ukpongette and  Mustorpa Jamiu
 
 Project Date: 15 Nov to 22 Nov, 2023
 
- *************************************************************************
+# *************************************************************************
 
 IN MY OWN WORDS
 
@@ -28,6 +28,9 @@ Shell Sort, also known as Shell's method, is an in-place comparison-based sortin
 
 Counting sorting:
 Counting Sort is a non-comparison-based sorting algorithm that works well when the range of input values (keys) is known and is not significantly larger than the number of elements to be sorted. It operates by counting the number of occurrences of each element and using that information to determine the position of each element in the sorted output.
+
+Merge sort:
+Merge Sort is a classic divide-and-conquer algorithm used for sorting arrays or lists. It was invented by John von Neumann in 1945. The key idea behind Merge Sort is to divide the array into smaller sub-arrays, recursively sort each sub-array, and then merge them back together to produce a sorted result. Merge Sort guarantees a time complexity of O(n log n) for the worst, average, and best cases.
 
 BIG 0 NOTATION
 

@@ -4,7 +4,7 @@
 
 /**
  * print_left_right - prints out the sides of the partition
- * @array: the unsorted array
+ * @array: points to the unsorted array
  * @size: size of second array
  * @first: initial position
  * @mid: middle position
@@ -39,9 +39,9 @@ void print_left_right(int *array, int size, int first, int mid)
 
 /**
  * merge - the two sorted part of an array
- * @array: first array
+ * @array: pointer to the first array
  * @size: size of second array
- * @cpy: copy of array
+ * @cpy: points to the copy of array
  * @first: initial position
  * @mid: middle position
  * first one of the second array
@@ -78,10 +78,10 @@ void merge(int *array, int size, int first, int mid, int *cpy)
 }
 /**
  * mergeSort - array separator
- * @cpy: copy of array
+ * @cpy: pointer to copy of array
  * @first: initial position
  * @size: size of the original  array
- * @array: the original array
+ * @array: pointer to the original array
  */
 void mergeSort(int *cpy, int first, int size, int *array)
 {
@@ -98,9 +98,9 @@ void mergeSort(int *cpy, int first, int size, int *array)
 	merge(cpy, size, first, mid, array);
 }
 /**
- * copy_array - copy array of int
- * @arr: array src
- * @cpy: array dest
+ * copy_array - function to copy array of int
+ * @arr: points to array src
+ * @cpy: pointer to array dest
  * @size : array size
  */
 void copy_array(int *arr, int *cpy, int size)
@@ -113,7 +113,7 @@ void copy_array(int *arr, int *cpy, int size)
 
 /**
  * merge_sort - create partition and copy
- * @array: array
+ * @array: pointer to array
  * @size : array size
  */
 void merge_sort(int *array, size_t size)
