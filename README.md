@@ -17,6 +17,9 @@ Sorting algorithms are a set of procedures that put elements in a certain order.
 Bubble sort: 
 Bubble Sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. The pass through the list is repeated until the list is sorted.
 
+Insertion sort:
+The Insertion Sort algorithm is a simple sorting algorithm that builds the final sorted array one item at a time. It is much less efficient on large lists than more advanced algorithms such as quicksort, heapsort, or merge sort. However, it has several advantages
+
 BIG 0 NOTATION
 
 Big O Notation:
