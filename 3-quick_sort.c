@@ -1,8 +1,8 @@
 #include "sort.h"
 
 /**
- * partition - splits the unsorted array
- * @array: the unsorted array
+ * partition - function that splits the unsorted array
+ * @array: pointer to the unsorted array
  * @first: first position
  * @last: last position
  * @size: array size

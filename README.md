@@ -20,6 +20,9 @@ Bubble Sort is a simple sorting algorithm that repeatedly steps through the list
 Insertion sort:
 The Insertion Sort algorithm is a simple sorting algorithm that builds the final sorted array one item at a time. It is much less efficient on large lists than more advanced algorithms such as quicksort, heapsort, or merge sort. However, it has several advantages
 
+Quick sort:
+QuickSort works by selecting a 'pivot' element from the array and partitioning the other elements into two sub-arrays according to whether they are less than or greater than the pivot. The sub-arrays are then sorted recursively.
+
 BIG 0 NOTATION
 
 Big O Notation:
