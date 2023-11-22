@@ -1,8 +1,8 @@
 #include "sort.h"
 
 /**
- * selection_sort - selection sort implementation
- * @array: the unsorted array
+ * selection_sort - implementation of selection sort
+ * @array: this is the unsorted array
  * @size: number of elements in the array
  */
 void selection_sort(int *array, size_t size)
