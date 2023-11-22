@@ -14,6 +14,9 @@ SORTING ALGORITYMS
 
 Sorting algorithms are a set of procedures that put elements in a certain order. The order could be numerical, lexicographical, or based on some other criteria. There are various sorting algorithms, each with its own advantages and disadvantages in terms of time complexity, space complexity, and ease of implementation.
 
+Bubble sort: 
+Bubble Sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. The pass through the list is repeated until the list is sorted.
+
 BIG 0 NOTATION
 
 Big O Notation:
